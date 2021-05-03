@@ -1,0 +1,50 @@
+#spline {
+    z-index: -2;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+.row   {
+    height: 70vh;
+
+}
+
+#form  {
+    border: 1px solid white;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100vh;
+    padding: 10%;
+    background-color: rgba(255, 255, 255, 0.801);
+    backdrop-filter: blur(10px);
+    align-items: center;
+    justify-content: center;
+}
+
+/* input {
+    color: white !important;
+    background-color: white !important;
+} */
+
+@media (max-width: 768px) {
+    #form  {
+        border: 1px solid white;
+        z-index: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        padding: 10%;
+        background-color: rgba(255, 255, 255, 0.801);
+        backdrop-filter: blur(10px);
+        align-items: center;
+        justify-content: center;
+    }
+}
